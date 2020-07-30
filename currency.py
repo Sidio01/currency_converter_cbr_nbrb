@@ -3,9 +3,6 @@ from decimal import Decimal
 import requests
 import json
 import re
-# import locale
-#
-# locale.setlocale()
 
 
 def choose_bank(type, amount, cur_from, cur_to, date):
